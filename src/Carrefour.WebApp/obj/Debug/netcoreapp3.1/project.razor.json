@@ -1,0 +1,16 @@
+{
+  "FilePath": "d:\\huatek\\演练项目\\Carrefour.WebApp\\src\\Carrefour.WebApp\\Carrefour.WebApp.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "Carrefour.WebApp",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

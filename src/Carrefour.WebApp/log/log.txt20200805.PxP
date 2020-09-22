@@ -1,0 +1,7 @@
+2020-08-05 13:49:35,260 [1] WARN  Carrefour.Services.RabbitMq.BrowseRecordsReceives -  日志1
+2020-08-05 13:49:35,275 [1] WARN  Carrefour.Services.RabbitMq.BrowseRecordsReceives -  日志2
+2020-08-05 13:56:15,430 [1] INFO  Carrefour.Services.RabbitMq.BrowseRecordsReceives -  日志1
+2020-08-05 13:56:15,752 [1] INFO  Microsoft.Hosting.Lifetime -  Now listening on: https://localhost:5001
+2020-08-05 13:56:15,758 [1] INFO  Microsoft.Hosting.Lifetime -  Application started. Press Ctrl+C to shut down.
+2020-08-05 13:56:15,761 [1] INFO  Microsoft.Hosting.Lifetime -  Hosting environment: Development
+2020-08-05 13:56:15,763 [1] INFO  Microsoft.Hosting.Lifetime -  Content root path: D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp

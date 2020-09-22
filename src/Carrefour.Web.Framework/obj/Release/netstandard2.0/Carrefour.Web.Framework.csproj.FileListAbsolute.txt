@@ -1,0 +1,16 @@
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Web.Framework.deps.json
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Web.Framework.dll
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Web.Framework.pdb
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Core.dll
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Data.dll
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Services.dll
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Services.pdb
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Core.pdb
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\bin\Release\netstandard2.0\Carrefour.Data.pdb
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.csprojAssemblyReference.cache
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.AssemblyInfoInputs.cache
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.AssemblyInfo.cs
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.csproj.CoreCompileInputs.cache
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.csproj.CopyComplete
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.dll
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.Web.Framework\obj\Release\netstandard2.0\Carrefour.Web.Framework.pdb
