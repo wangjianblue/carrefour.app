@@ -27,30 +27,30 @@ namespace Carrefour.WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             #region RabbitMQ
-            var rabbitOptions = Configuration.GetSection("RabbitOptions").Get<RabbitOptions>();
-            services.AddSingleton<IRabbitMqConnectionFactory>(new RabbitMqConnectionFactory(action =>
-            {
-                action.HostName = rabbitOptions.HostName;
-                action.Port = rabbitOptions.Port;
-                action.UserName = rabbitOptions.UserName;
-                action.Password = rabbitOptions.Password;
-                action.VirtualHost = rabbitOptions.VirtualHost;
-            }));
+            // var rabbitOptions = Configuration.GetSection("RabbitOptions").Get<RabbitOptions>();
+            // services.AddSingleton<IRabbitMqConnectionFactory>(new RabbitMqConnectionFactory(action =>
+            // {
+            //     action.HostName = rabbitOptions.HostName;
+            //     action.Port = rabbitOptions.Port;
+            //     action.UserName = rabbitOptions.UserName;
+            //     action.Password = rabbitOptions.Password;
+            //     action.VirtualHost = rabbitOptions.VirtualHost;
+            // }));
 
-            services.AddSingleton<IRabbitMQHelper>(new RabbitMQHelper(action =>
-            {
-                action.HostName = rabbitOptions.HostName;
-                action.Port = rabbitOptions.Port;
-                action.UserName = rabbitOptions.UserName;
-                action.Password = rabbitOptions.Password;
-                action.VirtualHost = rabbitOptions.VirtualHost;
-            }));
+            // services.AddSingleton<IRabbitMQHelper>(new RabbitMQHelper(action =>
+            // {
+            //     action.HostName = rabbitOptions.HostName;
+            //     action.Port = rabbitOptions.Port;
+            //     action.UserName = rabbitOptions.UserName;
+            //     action.Password = rabbitOptions.Password;
+            //     action.VirtualHost = rabbitOptions.VirtualHost;
+            // }));
             #endregion 
-            var connection = Configuration.GetSection("Connections:DefaultConnect").Value;
-            services.AddSingleton<IDapperHelper>(new DapperHelper(connection));
-            services.AddTransient<IBrowseRecordsReceives, BrowseRecordsReceives>();
-            services.AddTransient<IBrowseRecordsReceivesService, BrowseRecordsReceivesService>();
-            services.AddHostedService<WebHostGroundService>();
+            // var connection = Configuration.GetSection("Connections:DefaultConnect").Value;
+            // services.AddSingleton<IDapperHelper>(new DapperHelper(connection));
+            // services.AddTransient<IBrowseRecordsReceives, BrowseRecordsReceives>();
+            // services.AddTransient<IBrowseRecordsReceivesService, BrowseRecordsReceivesService>();
+            // services.AddHostedService<WebHostGroundService>();
             services.AddControllersWithViews();
 
         }
