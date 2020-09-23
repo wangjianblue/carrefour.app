@@ -12,7 +12,7 @@ COPY ["src/Carrefour.Web.Framework/Carrefour.Web.Framework.csproj", "src/Carrefo
 COPY ["src/Carrefour.Services/Carrefour.Services.csproj", "src/Carrefour.Services/"]
 COPY ["src/Carrefour.Data/Carrefour.Data.csproj", "src/Carrefour.Data/"]
 COPY ["src/Carrefour.Core/Carrefour.Core.csproj", "src/Carrefour.Core/"]
-RUN dotnet restore "src/Carrefour.WebApp/Carrefour.WebApp.csproj"
+RUN dotnet restore "src/Carcdrefour.WebApp/Carrefour.WebApp.csproj"
 COPY . .
 WORKDIR "/src/src/Carrefour.WebApp"
 RUN dotnet build "Carrefour.WebApp.csproj" -c Release -o /app/build
