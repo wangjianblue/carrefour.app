@@ -114,3 +114,5 @@ D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\obj\Debug\netcoreap
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\obj\Debug\netcoreapp3.1\Carrefour.WebApp.RazorTargetAssemblyInfo.cs
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\bin\Debug\netcoreapp3.1\Carrefour.WebApp.Views.pdb
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\obj\Debug\netcoreapp3.1\Carrefour.WebApp.Views.pdb
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\bin\Debug\netcoreapp3.1\docker-compose.yml
+D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.WebApp\bin\Debug\netcoreapp3.1\Dockerfile

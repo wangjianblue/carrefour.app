@@ -132,3 +132,8 @@ D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netc
 D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Carrefour.Data.pdb
 D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Carrefour.Services.pdb
 D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Carrefour.Web.Framework.pdb
+D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Carrefour.WebApp.Views.dll
+D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Carrefour.WebApp.Views.pdb
+D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\docker-compose.yml
+D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\Dockerfile
+D:\huatek\演练项目\Carrefour.WebApp\tests\Carrefour.XUnitTest\bin\Debug\netcoreapp3.1\dotnet-watch.dll

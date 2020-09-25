@@ -1,0 +1,28 @@
+version: '3.3'
+services:
+  webapp:
+    restart: always
+    container_name: "carrefourapp"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8085:80"
+    links:
+      - rabbitmq
+  rabbitmq:
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_VHOST: "/Carrefour_Virtual_host"
+      RABBITMQ_DEFAULT_USER: "carrefour"
+      RABBITMQ_DEFAULT_PASS: "carrefour"
+    image: "rabbitmq:3.7.16-management"
+    restart: always
+    volumes:
+      - "./data:/var/lib/rabbitmq"
+      - "./log:/var/log/rabbitmq/log"
+    ports:
+      - "15672:15672"
+      - "4369:4369"
+      - "5672:5672"
+      - "25672:25672"
