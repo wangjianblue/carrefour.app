@@ -40,7 +40,7 @@
           "dependencies": {
             "Magick.NET-Q16-AnyCPU": {
               "target": "Package",
-              "version": "[7.21.1, )"
+              "version": "[7.22.0, )"
             },
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -48,11 +48,11 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.8, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.8, )"
             }
           },
           "imports": [
