@@ -12,8 +12,8 @@ services:
     links:
       - rabbitmq
     volumes: 
-      - "./log : /gary/carrefour/log"
-      - "appsettings.json : /gary/carrefour"
+      - "./log:/gary/carrefour/log"
+      - "./appsettings.json:/gary/carrefour"
   rabbitmq:
     hostname: rabbitmq
     environment:
