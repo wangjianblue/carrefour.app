@@ -4,7 +4,6 @@ D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\bin\Debug\netc
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\bin\Debug\netcoreapp3.1\Carrefour.ConsoleTask.runtimeconfig.dev.json
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\bin\Debug\netcoreapp3.1\Carrefour.ConsoleTask.dll
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\bin\Debug\netcoreapp3.1\Carrefour.ConsoleTask.pdb
-D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\obj\Debug\netcoreapp3.1\Carrefour.ConsoleTask.csprojAssemblyReference.cache
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\obj\Debug\netcoreapp3.1\Carrefour.ConsoleTask.AssemblyInfoInputs.cache
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\obj\Debug\netcoreapp3.1\Carrefour.ConsoleTask.AssemblyInfo.cs
 D:\huatek\演练项目\Carrefour.WebApp\src\Carrefour.ConsoleTask\obj\Debug\netcoreapp3.1\Carrefour.ConsoleTask.dll

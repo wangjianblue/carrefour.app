@@ -1,0 +1,10 @@
+*.DS_Store
+*.log
+*.zip
+.idea
+.sass-cache/
+/node_modules/
+/bower_components/
+package-lock.json
+yarn.lock
+test.html

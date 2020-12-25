@@ -14387,7 +14387,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 900
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "Carrefour.WebApp",
   "Documents": [
@@ -14404,6 +14404,11 @@
     {
       "FilePath": "d:\\huatek\\演练项目\\Carrefour.WebApp\\src\\Carrefour.WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\huatek\\演练项目\\Carrefour.WebApp\\src\\Carrefour.WebApp\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

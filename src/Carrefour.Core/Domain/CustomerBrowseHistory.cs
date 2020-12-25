@@ -2,7 +2,7 @@ using System;
 
 namespace Carrefour.Core
 {
-    public class CustomerBrowseHistory
+    public class CustomerBrowseHistory:MongoEntity
     {
         /// <summary>
         /// memid会员主键

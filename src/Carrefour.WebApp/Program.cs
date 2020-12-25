@@ -13,7 +13,9 @@ namespace Carrefour.WebApp
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args)
+                .Build()
+                .Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -22,8 +24,11 @@ namespace Carrefour.WebApp
                 {
                     logBuilder.AddFilter("System", LogLevel.Warning);
                     logBuilder.AddFilter("Microsoft", LogLevel.Warning);
-                    logBuilder.AddLog4Net(); //ע��log4net
+                    logBuilder.AddLog4Net(); //注锟斤拷log4net
                 }) 
+                .ConfigureAppConfiguration((hostingContext,config)=>{
+                    config.AddCommandLine(args); //鏀寔鍛戒护
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

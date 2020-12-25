@@ -2,7 +2,8 @@ version: '3.3'
 services:
   webapp:
     restart: always
-    container_name: "carrefourapp"
+    #image: "carrefour.app"              #第一种模式，直接读取镜像
+    container_name: "carrefourappv1"     #第二种模式，自己构造镜像
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,7 +11,12 @@ services:
       - "8085:80"
     links:
       - rabbitmq
-  rabbitmq:
+    volumes: 
+      #- "./log:/gary/carrefour/log"
+      - "./appsettings.json:/gary/carrefour"
+    #networks:
+    #  - web_network
+  rabbitmq: 
     hostname: rabbitmq
     environment:
       RABBITMQ_DEFAULT_VHOST: "/Carrefour_Virtual_host"
@@ -26,3 +32,37 @@ services:
       - "4369:4369"
       - "5672:5672"
       - "25672:25672"
+   # networks:
+    #  - web_network
+  redis:
+    hostname: myredis
+    image: redis
+    container_name: redis
+    restart: always
+    volumes:
+      - ./conf/redis.conf:/etc/redis/redis.conf:rw
+      - ./data:/data:rw
+    command:
+      redis-server /etc/redis/redis.conf --appendonly yes
+    ports:
+      - 6379:6379 
+    #networks:
+    #  - web_network
+  mongo_local:
+    image: mongo:latest
+    container_name: mymongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=sa
+      - MONGO_INITDB_ROOT_PASSWORD=123456
+    volumes:
+      - "./mongodb/db:/data/db"
+    ports:
+      - "27017:27017"
+    security:
+      authorization:disable
+#     networks:
+#       - web_network
+# networks:
+#   web_network:
+#     external: bridge
+#     name: temp2_default

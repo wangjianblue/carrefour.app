@@ -2,14 +2,18 @@ version: '3.3'
 services:
   webapp:
     restart: always
-    container_name: "carrefourapp"
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: "carrefour.app"              #第一种模式，直接读取镜像
+    #container_name: "carrefourapp"     #第二种模式，自己构造镜像
+    #build:
+      #context: .
+      #dockerfile: Dockerfile
     ports:
       - "8085:80"
     links:
       - rabbitmq
+    volumes: 
+      #- "./log:/gary/carrefour/log"
+      - "./appsettings.json:/gary/carrefour"
   rabbitmq:
     hostname: rabbitmq
     environment:

@@ -9,5 +9,7 @@ namespace Carrefour.Core.Domain
         public  int id { get; set; }
         public  string Username { get; set; }
         public  string Email { get; set; }
+
+        public Guid CustomerGuid { get; set; }
     }
 }

@@ -1,27 +1,30 @@
 using System.Collections.Generic;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace Carrefour.Data.Dapper
 {
     public interface IDapperHelper
     {
         List<T> Query<T>(string sql, object param = null);
+
+        Task<List<T>> QueryAsync<T>(string sql, object param = null);
         /// <summary>
-    /// 查询第一个数据
-    /// </summary>
-    /// <param name="sql"></param>
-    /// <param name="param"></param>
-    /// <returns></returns>
-      T QueryFirst<T>(string sql, object param = null);
+        /// 查询第一个数据
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        T QueryFirst<T>(string sql, object param = null);
+    
 
-
-    /// <summary>
-    /// 查询第一个数据没有返回默认值
-    /// </summary>
-    /// <param name="sql"></param>
-    /// <param name="param"></param>
-    /// <returns></returns>
-      T QueryFirstOrDefault<T>(string sql, object param = null);
+        /// <summary>
+        /// 查询第一个数据没有返回默认值
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        T QueryFirstOrDefault<T>(string sql, object param = null);
 
 
     /// <summary>
@@ -63,6 +66,7 @@ namespace Carrefour.Data.Dapper
     /// <param name="param"></param>
     /// <returns></returns>
       object ExecuteScalar(string sql, object param);
+ 
 
     /// <summary>
     /// Scalar获取数据
